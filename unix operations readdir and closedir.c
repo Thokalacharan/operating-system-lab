@@ -4,7 +4,7 @@
 
 int main(){
     char buff[100];
-    DIR *dirp;
+    DIR *dirp; //stream to the directory
     struct dirent *dptr;
     
     printf("Enter the directory: ");
